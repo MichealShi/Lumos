@@ -4,6 +4,19 @@
 
 > 目前仅提供 macOS 版本（Apple Silicon / arm64）。
 
+## 下载
+
+| 平台 | 文件 | 说明 |
+| :--- | :--- | :--- |
+| macOS (arm64) | `Lumos-Markdown-1.0.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
+
+- **百度网盘**：https://pan.baidu.com/s/1Il2jmxY098Kpl9UhTJgC0w?pwd=utcd （提取码：`utcd`）
+
+> 应用未签名。首次打开若被 Gatekeeper 拦截，右键选择「打开」，或在终端执行：
+> ```bash
+> xattr -cr "/Applications/Lumos Markdown.app"
+> ```
+
 ## 功能特性
 
 - **实时分屏预览**：左侧编辑、右侧即时渲染，支持滚动同步与可拖动分隔条，可切换「编辑 / 分屏 / 预览」三种视图
