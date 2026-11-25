@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | macOS (arm64) | `Lumos-Markdown-1.0.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
 
-- **百度网盘**：https://pan.baidu.com/s/1Il2jmxY098Kpl9UhTJgC0w?pwd=utcd （提取码：`utcd`）
+- **百度网盘**：https://pan.baidu.com/s/1qS_WJkL97bahzezdxMuZAg?pwd=zpej （提取码：`zpej`）
 
 > 应用未签名。首次打开若被 Gatekeeper 拦截，右键选择「打开」，或在终端执行：
 > ```bash
@@ -23,7 +23,8 @@
 - **完整 Markdown 语法**：基于 CommonMark + GFM，支持表格（含合并单元格）、任务列表（可点击勾选并回写源码）、脚注、定义列表、上/下标、删除线、高亮、emoji、自动链接等
 - **扩展渲染**：KaTeX 数学公式（`$...$`、`$$...$$`、`\(...\)`、`\[...\]`）、Mermaid 图表、highlight.js 代码高亮、多种提示块（tip / note / info / warning / danger）
 - **编辑体验**：CodeMirror 6 编辑器、语法高亮、明暗主题、快捷键格式化（`⌘B` / `⌘I` / `⌘K`）、字数与行号状态栏
-- **文件操作**：新建 / 打开 / 保存 Markdown、导出独立 HTML、Finder 中直接用 `.md` 打开、最近文档、窗口状态记忆
+- **文件操作**：新建 / 打开 / 保存 Markdown、导出独立 HTML、Finder 中直接用 `.md` 打开（已注册文件关联）、最近文档、窗口状态记忆
+- **多窗口**：打开文件时默认进入预览视图，新建文档默认分屏；在已打开文件的窗口里新建或打开其他文件会自动开新窗口，不覆盖当前文档；预览区内容横向放不下时可滚动查看
 
 ## 技术栈
 
