@@ -2,13 +2,13 @@
 
 一个为 macOS 打造的 Markdown 编辑器：全语法兼容、实时预览、数学公式、流程图与代码高亮。
 
-> 目前仅提供 macOS 版本（Apple Silicon / arm64）。
+> 目前仅提供 macOS 版本（Apple Silicon / arm64），当前版本 **v1.1.0**。
 
 ## 下载
 
 | 平台 | 文件 | 说明 |
 | :--- | :--- | :--- |
-| macOS (arm64) | `Lumos-Markdown-1.0.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
+| macOS (arm64) | `Lumos-Markdown-1.1.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
 
 - **百度网盘**：https://pan.baidu.com/s/1qS_WJkL97bahzezdxMuZAg?pwd=zpej （提取码：`zpej`）
 
@@ -40,6 +40,16 @@ npm run dist       # 打包 macOS 应用
 ```
 
 > 若从 WorkBuddy 等注入了 `ELECTRON_RUN_AS_NODE=1` 的环境启动，需先执行 `unset ELECTRON_RUN_AS_NODE`。
+
+## 更新记录
+
+- **v1.1.0**
+  - 新增文档内查找：编辑/分屏下查找源码（⌘F），预览模式下查找渲染内容
+  - 新建 / 打开文件改为在新窗口进行，不覆盖当前文档；打开默认预览、新建默认分屏
+  - 修复预览页面空白、预览区横向无法滚动
+  - 注册 `.md` 文件关联，支持 Finder 直接打开
+
+- **v1.0.0**：首个版本
 
 ## 许可证
 
