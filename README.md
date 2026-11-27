@@ -56,17 +56,6 @@
 
 Electron 45 · Vite 8 · CodeMirror 6 · markdown-it 14 · KaTeX · Mermaid · highlight.js
 
-## 本地开发
-
-```bash
-npm install
-npm start          # 构建并启动
-npm run build      # 仅构建渲染层
-npm run dist       # 打包 macOS 应用
-```
-
-> 若从 WorkBuddy 等注入了 `ELECTRON_RUN_AS_NODE=1` 的环境启动，需先执行 `unset ELECTRON_RUN_AS_NODE`。
-
 ## 更新记录
 
 - **v1.4.2**
