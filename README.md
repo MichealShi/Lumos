@@ -2,13 +2,13 @@
 
 一个为 macOS 打造的 Markdown 编辑器：全语法兼容、实时预览、数学公式、流程图与代码高亮。
 
-> 目前仅提供 macOS 版本（Apple Silicon / arm64），当前版本 **v1.4.2**。
+> 目前仅提供 macOS 版本（Apple Silicon / arm64），当前版本 **v1.5.0**。
 
 ## 下载
 
 | 平台 | 文件 | 说明 |
 | :--- | :--- | :--- |
-| macOS (arm64) | `Lumos-Markdown-1.4.2-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
+| macOS (arm64) | `Lumos-Markdown-1.5.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
 
 - **百度网盘**：https://pan.baidu.com/s/13tO3kRw0olyn-DjM3nsXHQ?pwd=wq5q （提取码：`wq5q`）
 
@@ -57,6 +57,9 @@
 Electron 45 · Vite 8 · CodeMirror 6 · markdown-it 14 · KaTeX · Mermaid · highlight.js
 
 ## 更新记录
+
+- **v1.5.0**
+  - 全新应用图标：扁平化科技风，深空底 + 霓虹青蓝渐变 M 字
 
 - **v1.4.2**
   - 修复导出只保留第一页：覆盖编辑器外壳的 `height:100% / overflow:hidden` 裁剪样式，完整导出全文
