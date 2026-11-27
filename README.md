@@ -12,7 +12,7 @@
 
 - **百度网盘**：https://pan.baidu.com/s/1GthQTcUPtxvXqu_HXVNw4g?pwd=akyy （提取码：`akyy`）
 
-> 应用未签名。首次打开若被 Gatekeeper 拦截，右键选择「打开」，或在终端执行：
+> 应用未使用 Apple 开发者证书签名（ad-hoc 签名）。首次打开若被 Gatekeeper 拦截提示"无法打开"，右键选择「打开」即可；若仍被拦截，可在终端执行：
 > ```bash
 > xattr -cr "/Applications/Lumos Markdown.app"
 > ```
