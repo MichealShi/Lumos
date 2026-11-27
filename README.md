@@ -2,13 +2,13 @@
 
 一个为 macOS 打造的 Markdown 编辑器：全语法兼容、实时预览、数学公式、流程图与代码高亮。
 
-> 目前仅提供 macOS 版本（Apple Silicon / arm64），当前版本 **v1.4.0**。
+> 目前仅提供 macOS 版本（Apple Silicon / arm64），当前版本 **v1.4.1**。
 
 ## 下载
 
 | 平台 | 文件 | 说明 |
 | :--- | :--- | :--- |
-| macOS (arm64) | `Lumos-Markdown-1.4.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
+| macOS (arm64) | `Lumos-Markdown-1.4.1-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
 
 - **百度网盘**：https://pan.baidu.com/s/1qS_WJkL97bahzezdxMuZAg?pwd=zpej （提取码：`zpej`）
 
@@ -50,6 +50,9 @@ npm run dist       # 打包 macOS 应用
 > 若从 WorkBuddy 等注入了 `ELECTRON_RUN_AS_NODE=1` 的环境启动，需先执行 `unset ELECTRON_RUN_AS_NODE`。
 
 ## 更新记录
+
+- **v1.4.1**
+  - 修复导出 HTML/PDF 内容不全：内联完整 CSS、等待图表渲染完成、保留主题样式、修复图片处理
 
 - **v1.4.0**
   - 新增 `[TOC]` 目录生成（嵌套可点击目录）
