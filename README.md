@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | macOS (arm64) | `Lumos-Markdown-1.5.0-arm64.dmg` | 适用于 Apple Silicon 芯片的 Mac |
 
-- **百度网盘**：https://pan.baidu.com/s/13tO3kRw0olyn-DjM3nsXHQ?pwd=wq5q （提取码：`wq5q`）
+- **百度网盘**：https://pan.baidu.com/s/1STtTAf9xReWYeWWMCTyzNg?pwd=wg6e （提取码：`wg6e`）
 
 > 应用未使用 Apple 开发者证书签名（ad-hoc 签名）。首次打开若被 Gatekeeper 拦截提示"无法打开"，右键选择「打开」即可；若仍被拦截，可在终端执行：
 > ```bash
